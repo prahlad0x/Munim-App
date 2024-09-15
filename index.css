@@ -304,7 +304,7 @@ td.debit {
     font-size: 16px;
 }
 
-.profile-details> h2, .profile-details > label {
+.profile-details> h2, .profile-details > label, #close-history {
     margin-top: 0;
 }
 

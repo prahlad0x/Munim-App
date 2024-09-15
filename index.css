@@ -35,6 +35,9 @@ body[data-theme="dark"] {
     justify-content: space-between;
     align-items: center;
 }
+h3 {
+    margin: 0;
+}
 
 input, textarea, select {
     width: 99%;
@@ -180,6 +183,7 @@ input:focus {
 
 #total-credit {
     color: #366a3a;
+    margin-bottom: 0;
 }
 
 #total-transaction{
@@ -188,6 +192,7 @@ input:focus {
 
 #total-debit {
     color : rgb(151, 67, 67);
+    margin-bottom: 0;
 }
 /* Table styling */
 table {
@@ -297,6 +302,10 @@ td.debit {
 #pagination-controls #page-info {
     margin: 0 10px;
     font-size: 16px;
+}
+
+.profile-details> h2, .profile-details > label {
+    margin-top: 0;
 }
 
 /* Theme Toggle
